@@ -1,0 +1,146 @@
+[{
+  "_id": {
+    "$oid": "69c04f931955e9faaa08b0d6"
+  },
+  "order_id": "ORD2002",
+  "customer_id": "CUST032",
+  "order_date": "2023-08-22",
+  "status": "delivered",
+  "category": "Electronics",
+  "items": [
+    {
+      "product_id": "ELEC101",
+      "name": "Smartphone",
+      "brand": "TechPro",
+      "price": 2999,
+      "warranty": {
+        "duration_months": 24,
+        "coverage": [
+          "manufacturing defects",
+          "battery replacement"
+        ]
+      }
+    },
+    {
+      "product_id": "ELEC102",
+      "name": "Wireless Earbuds",
+      "brand": "SoundMax",
+      "price": 999,
+      "features": [
+        "noise cancellation",
+        "water resistant"
+      ]
+    },
+    {
+      "product_id": "ELEC103",
+      "name": "Smartwatch",
+      "brand": "FitLife",
+      "price": 1199,
+      "specs": {
+        "battery_life_days": 7,
+        "health_tracking": [
+          "heart rate",
+          "sleep",
+          "steps"
+        ]
+      }
+    }
+  ],
+  "payment": {
+    "method": "credit_card",
+    "transaction_id": "TXN78945"
+  },
+  "total_amount": 6197
+},
+{
+  "_id": {
+    "$oid": "69c04fa81955e9faaa08b0d8"
+  },
+  "order_id": "ORD2052",
+  "customer_id": "CUST014",
+  "order_date": "2023-04-08",
+  "status": "delivered",
+  "category": "Furniture",
+  "items": [
+    {
+      "product_id": "FURN201",
+      "name": "Dining Table",
+      "material": "Solid Wood",
+      "dimensions": {
+        "length_cm": 180,
+        "width_cm": 90,
+        "height_cm": 75
+      },
+      "price": 5999
+    },
+    {
+      "product_id": "FURN202",
+      "name": "Dining Chair Set",
+      "material": "Oak",
+      "quantity": 4,
+      "price_per_unit": 1200
+    },
+    {
+      "product_id": "FURN203",
+      "name": "Sideboard Cabinet",
+      "material": "Walnut",
+      "storage": {
+        "drawers": 3,
+        "shelves": 2
+      },
+      "price": 2995
+    },
+    {
+      "product_id": "FURN204",
+      "name": "Floor Lamp",
+      "style": "Modern",
+      "price": 1200
+    }
+  ],
+  "delivery": {
+    "scheduled_date": "2023-04-15",
+    "assembly_required": true
+  },
+  "total_amount": 14394
+},
+{
+  "_id": {
+    "$oid": "69c04fc51955e9faaa08b0da"
+  },
+  "order_id": "ORD2043",
+  "customer_id": "CUST012",
+  "order_date": "2023-11-05",
+  "status": "delivered",
+  "category": "Clothing",
+  "items": [
+    {
+      "product_id": "CLO301",
+      "name": "Men's Jacket",
+      "size": "L",
+      "color": "Black",
+      "fabric": "Leather",
+      "price": 3499
+    },
+    {
+      "product_id": "CLO302",
+      "name": "Women's Dress",
+      "size": "M",
+      "color": "Red",
+      "fabric": "Silk",
+      "price": 2499
+    },
+    {
+      "product_id": "CLO303",
+      "name": "Unisex Sneakers",
+      "size": "42",
+      "color": "White",
+      "brand": "RunFast",
+      "price": 2297
+    }
+  ],
+  "shipping": {
+    "method": "express",
+    "tracking_number": "SHIP12345"
+  },
+  "total_amount": 8295
+}]
